@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+        href="bootstrap.min.css">
+
+    <!-- Your CSS -->
+    <link rel="stylesheet"
+        href="watch.css">
+
+    <title>TIMEZONE - Cart</title>
+
+</head>
+
+
+<body>
+
+
+    <!-- Background img -->
+
+   <img src="watchback.jpg" class="background-image" alt="">
+
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="home.html">
+            TIMEZONE
+        </a>
+
+        <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="home.html">Home</a>
+            <a class="nav-link" href="shop.html">Shop</a>
+            <a class="nav-link" href="cart.html">Cart</a>
+            <a class="nav-link" href="login.html">Account</a>
+        </div>
+
+    </div>
+</nav>
+
+    <!-- Logo -->
+
+    <h1 class="logo text-center">
+        TIMEZONE
+    </h1>
+
+
+    <!-- Cart Intro -->
+
+    <section
+        class="cart-intro container text-center my-5">
+
+        <h2>
+            Your Cart
+        </h2>
+
+        <p>
+            Review your selected watches
+        </p>
+
+    </section>
+
+
+    <!-- Cart -->
+
+    <section
+        class="cart container my-4">
+
+    </section>
+
+
+    <!-- Cart Summary -->
+
+    <section
+        class="cart-summary container my-5"
+        id="cart-summary">
+
+        <div class="row justify-content-center">
+
+            <div class="col-12 col-md-8 col-lg-6">
+
+                <h2>
+                    Order Summary
+                </h2>
+
+                <p>
+                    Total Items:
+                    <strong id="total-items">
+                        0
+                    </strong>
+                </p>
+
+                <p>
+                    Total Price:
+                    <strong id="total-price">
+                        0
+                    </strong>
+                </p>
+
+                <button
+                    id="clear-cart"
+                    class="btn">
+
+                    Clear Cart
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Checkout -->
+
+    <section
+        class="checkout container my-5"
+        id="checkout">
+
+        <div class="row justify-content-center">
+
+            <div class="col-12 col-md-10 col-lg-7">
+
+                <h2 class="text-center">
+                    Checkout
+                </h2>
+
+
+                <form
+                    id="checkout-form"
+                    class="mt-4">
+
+
+                    <!-- Full Name -->
+
+                    <div class="mb-3">
+
+                        <label
+                            for="customer-name"
+                            class="form-label">
+
+                            Full Name
+
+                        </label>
+
+                        <input
+                            type="text"
+                            id="customer-name"
+                            class="form-control"
+                            placeholder="Enter your full name"
+                            required>
+
+                    </div>
+
+
+                    <!-- Phone -->
+
+                    <div class="mb-3">
+
+                        <label
+                            for="customer-phone"
+                            class="form-label">
+
+                            Phone Number
+
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="customer-phone"
+                            class="form-control"
+                            placeholder="Enter your phone number"
+                            required>
+
+                    </div>
+
+
+                    <!-- Address -->
+
+                    <div class="mb-3">
+
+                        <label
+                            for="customer-address"
+                            class="form-label">
+
+                            Address
+
+                        </label>
+
+                        <textarea
+                            id="customer-address"
+                            class="form-control"
+                            placeholder="Enter your address"
+                            rows="4"
+                            required></textarea>
+
+                    </div>
+
+
+                    <!-- City -->
+
+                    <div class="mb-3">
+
+                        <label
+                            for="customer-city"
+                            class="form-label">
+
+                            City
+
+                        </label>
+
+                        <input
+                            type="text"
+                            id="customer-city"
+                            class="form-control"
+                            placeholder="Enter your city"
+                            required>
+
+                    </div>
+
+
+                    <!-- Payment -->
+
+                    <div class="mb-3">
+
+                        <label
+                            for="payment"
+                            class="form-label">
+
+                            Payment Method
+
+                        </label>
+
+                        <select
+                            id="payment"
+                            class="form-select"
+                            required>
+
+                            <option value="">
+                                Select Payment Method
+                            </option>
+
+                            <option value="Cash on Delivery">
+                                Cash on Delivery
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- Place Order -->
+
+                    <div class="text-center">
+
+                        <button
+                            type="submit"
+                            class="btn">
+
+                            Place Order
+
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer
+        class="footer container-fluid text-center py-4">
+
+        <h3>
+            TIMEZONE
+        </h3>
+
+        <p>
+            Phone: 0000-0000000
+        </p>
+
+        <p>
+            Ticktock: @Maha_xwhy
+        </p>
+        <p>
+            Instagram: malik_xcheery5888
+        </p>
+
+        <p>
+            © 2026 TIMEZONE. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- Your JavaScript -->
+
+    <script src="watch.js"></script>
+
+</body>
+
+</html>
